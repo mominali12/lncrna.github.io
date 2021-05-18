@@ -56,7 +56,47 @@
 
 
 
+<style>
+      
+     a:hover {
+         color: #b6b84c;
+     }
 
+      
+     a.btn {
+         color: white;
+          background-color: #fae880;
+     }
+     a.btn:hover {
+          background-color: #b6b84c;
+     }
+
+      
+     a.fn-item.active {
+          color: #b6b84c;
+     }
+     a.fn-item:hover {
+          color: #ced067;
+     }
+
+      
+     .post-holder.odd {
+          background: #afc9ce;
+          color: white;
+     }
+     .post-holder {
+          background: #f2efe8;
+     }
+     body {
+          color: #3A4145;
+     }
+
+      
+     .site-footer {
+          color: #BBC7CC;
+          background-color: #22343A;
+     }
+</style>
 
 
 
@@ -86,17 +126,19 @@
 <body>
 
 
-<header id="site-head" style="background-image: url(images/cover-image.jpg)">
+<header id="site-head" style="background-image: url(images/fish_hela_cells_crispr.jpg)">
     <div class="vertical">
         <div id="site-head-content" class="inner">
 
-            <h1 class="blog-title">Jane Doe</h1>
-            <h2 class="blog-description">Hi there , I am a Nutrition Coach &amp; Chef Consultant</h2>
+            <h1 class="blog-title">Berry Lab</h1>
+            <h2 class="blog-description">Regulation of gene expression in single cells</h2>
 
             
-                 <a class='btn site-menu' data-title-anchor='services'>Services</a>
+                 <a class='btn site-menu' data-title-anchor='people'>People</a>
             
-                 <a class='btn site-menu' data-title-anchor='about-me'>About Me</a>
+                 <a class='btn site-menu' data-title-anchor='research'>Research</a>
+            
+                 <a class='btn site-menu' data-title-anchor='publications'>Publications</a>
             
                  <a class='btn site-menu' data-title-anchor='contact'>Contact</a>
             
@@ -125,9 +167,38 @@
         </div>
     
         <div class='post-holder'>
-            <article id='services' class='post '>
+            <article id='people' class='post '>
                 <header class="post-header">
-                    <h2 class="post-title">Services</h2>
+                    <h2 class="post-title">People</h2>
+                </header>
+                <section class="post-content">
+                    <p>So far its just me! But I will be recruiting for PhD students and postdocs very soon. Send me an email if you are interested.</p>
+
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
+            <article id='research' class='post '>
+                <header class="post-header">
+                    <h2 class="post-title">Research</h2>
+                </header>
+                <section class="post-content">
+                    <p><img src="images/happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg" alt="Jane Doe"></p>
+<h5 id="professionel-experience">Professionel Experience</h5>
+<p>A lot, but let us get into the details with some lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat lectus et magna placerat tincidunt. Nullam sit amet lectus vitae elit mollis rhoncus non eget lorem. Ut tempor sed dui quis volutpat.</p>
+<p>In ultrices, est at lobortis pretium, magna quam mollis neque, id viverra odio est sit amet lorem. Mauris efficitur nunc vel lectus porttitor, sit amet sodales quam eleifend. Duis et felis ut mauris dignissim efficitur. Aliquam non sem eros. Integer elit ante, bibendum id hendrerit vitae, vestibulum eget risus. Nunc efficitur nisl in iaculis vestibulum.</p>
+
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
+            <article id='publications' class='post '>
+                <header class="post-header">
+                    <h2 class="post-title">Publications</h2>
                 </header>
                 <section class="post-content">
                     <p>That is the important part, right? You want to know what I can do for you. This is why I put this right up there into the header menu of the website.</p>
@@ -153,22 +224,6 @@
         </div>
     
         <div class='post-holder'>
-            <article id='about-me' class='post '>
-                <header class="post-header">
-                    <h2 class="post-title">About Me</h2>
-                </header>
-                <section class="post-content">
-                    <p><img src="images/happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg" alt="Jane Doe"></p>
-<h5 id="professionel-experience">Professionel Experience</h5>
-<p>A lot, but let us get into the details with some lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat lectus et magna placerat tincidunt. Nullam sit amet lectus vitae elit mollis rhoncus non eget lorem. Ut tempor sed dui quis volutpat.</p>
-<p>In ultrices, est at lobortis pretium, magna quam mollis neque, id viverra odio est sit amet lorem. Mauris efficitur nunc vel lectus porttitor, sit amet sodales quam eleifend. Duis et felis ut mauris dignissim efficitur. Aliquam non sem eros. Integer elit ante, bibendum id hendrerit vitae, vestibulum eget risus. Nunc efficitur nisl in iaculis vestibulum.</p>
-
-                </section>
-            </article>
-            <div class='post-after'></div>
-        </div>
-    
-        <div class='post-holder'>
             <article id='contact' class='post last'>
                 <header class="post-header">
                     <h2 class="post-title">Contact</h2>
@@ -176,8 +231,19 @@
                 <section class="post-content">
                     <p><i class="fa fa-envelope"></i> <a href="mailto:scott.berry%5Bat%5Dunsw.edu.au">scott.berry[at]unsw.edu.au</a></p>
 <p><i class="fa fa-twitter"></i> <a href="http://twitter.com/scottbscience">@scottbscience</a></p>
-<p><i class="fa fa-phone"></i> <a href="tel:+491111555555">+49 1111 555555</a></p>
-<p>Let us get in touch!</p>
+<p><strong>Find me:</strong></p>
+<p>Single Molecule Science<br>
+Level 3, Lowy Cancer Research Centre<br>
+Cnr Botany &amp; High Sts, Building C25<br>
+UNSW Kensington Campus</p>
+<p><strong>Send something:</strong></p>
+<p>Attention: Scott Berry<br>
+Single Molecule Science<br>
+Upper Campus Store E26, Bioscience South<br>
+LG018 Loading Dock<br>
+Via Gate 11, Botany Street<br>
+UNSW Sydney NSW 2052<br>
+Australia</p>
 
                 </section>
             </article>
