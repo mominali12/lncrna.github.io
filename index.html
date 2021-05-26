@@ -56,31 +56,64 @@
 
 
 
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Fredoka%20One&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
 <style>
 
      h2,
-     h3,
-     h4,
-     h5,
-     h6 {
-          font-family: "Newsreader", sans-serif;
-          font-weight: 400;
+     h3 {
+          font-family: "Fredoka One";
+          font-weight: 700;
      }
 
      h1 {
           color:#f8fcfc;
-          font-family: "Newsreader", sans-serif;
+          font-family: "Montserrat";
+          font-weight: 700;
+
+     }
+
+      
+     .blog-description {
+          margin: 0;
+          font-size: 2.5rem;
+          line-height: 1.5em;
           font-weight: 400;
+          font-family: "Raleway";
+          letter-spacing: 0;
      }
 
      h3 {
+          font-family: "Fredoka One";
+          font-weight: 400;
           margin-bottom: 30px;
      }
 
+     h4 {
+          font-family: "Montserrat";
+          font-weight: 400;
+          margin-top: 40px;
+          margin-bottom: 20px;
+     }
+
      h6 {
+          font-family: "Montserrat";
           color:#afc9ce;
+          font-weight: 400;
+          font-size: 2.5rem;
+          line-height: 1.25em;
           margin-top: 40px;
           margin-bottom: 0;
+     }
+
+     body {
+          color: #32363f;
+          font-family: "Raleway";
+          font-weight: 300;
+          font-size: 2.0rem;
      }
 
       
@@ -97,15 +130,17 @@
           background-color: #c4ba7f;
      }
      
+
       
      a.fn-item {
-          color: #434248;
+          color: #617d82;
+          opacity: 1.0;
      }
      a.fn-item.active {
-          color: #4f4990;
+          color: #fae880;
      }
      a.fn-item:hover {
-          color: #E5D3C6;
+          color: #c4ba7f;
      }
 
       
@@ -116,9 +151,9 @@
      .post-holder {
           background: #f8fcfc;
      }
-     body {
-          color: #32363f;
-          font-family: "Montserrat", sans-serif;
+
+     .content-card img {
+          max-width: 100%;
      }
 
       
@@ -164,6 +199,8 @@
             <h2 class="blog-description">Berry Lab @ Single Molecule Science UNSW</h2>
 
             
+                 <a class='btn site-menu' data-title-anchor='about-us'>About us</a>
+            
                  <a class='btn site-menu' data-title-anchor='people'>People</a>
             
                  <a class='btn site-menu' data-title-anchor='research'>Research</a>
@@ -182,12 +219,13 @@
     </div>
     
         <div class='post-holder'>
-            <article id='motivation' class='post first'>
+            <article id='about-us' class='post first'>
                 <header class="post-header">
-                    <h2 class="post-title">Motivation</h2>
+                    <h2 class="post-title">About us</h2>
                 </header>
                 <section class="post-content">
-                    <p>Single cells use a variety of transcriptional and post-transcriptional mechanisms to regulate the relative abundance of mRNA transcripts of each gene, and at the same time control total mRNA levels by regulating global RNA production and degradtion according to physiological requirements. We are interested in the mechanisms used by cells to regulate gene-specific and global RNA abundance.</p>
+                    <p>We are a new research group opening in October 2021 at Single Molecule Science: the EMBL Australia node of the University of New South Wales. I am currently recruiting PhD students and postdocs. Please <a href="mailto:scott.berry@unsw.edu.au">contact me</a> if you are interested in joining or collaborating.</p>
+<p><img src="images/UNSW_EMBL_logo_grey.png" alt="UNSW"></p>
 
                 </section>
             </article>
@@ -200,7 +238,7 @@
                     <h2 class="post-title">People</h2>
                 </header>
                 <section class="post-content">
-                    <p>So far its just me! But I will be recruiting for PhD students and postdocs very soon. Send me an email if you are interested.</p>
+                    <p>Bio and pic</p>
 
                 </section>
             </article>
@@ -213,10 +251,26 @@
                     <h2 class="post-title">Research</h2>
                 </header>
                 <section class="post-content">
-                    <p><img src="images/happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg" alt="Jane Doe"></p>
-<h5 id="professionel-experience">Professionel Experience</h5>
-<p>A lot, but let us get into the details with some lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat lectus et magna placerat tincidunt. Nullam sit amet lectus vitae elit mollis rhoncus non eget lorem. Ut tempor sed dui quis volutpat.</p>
-<p>In ultrices, est at lobortis pretium, magna quam mollis neque, id viverra odio est sit amet lorem. Mauris efficitur nunc vel lectus porttitor, sit amet sodales quam eleifend. Duis et felis ut mauris dignissim efficitur. Aliquam non sem eros. Integer elit ante, bibendum id hendrerit vitae, vestibulum eget risus. Nunc efficitur nisl in iaculis vestibulum.</p>
+                    <p>We are interested in the mechanisms used by cells to regulate gene-specific and global RNA abundance &ndash; ranging from epigenetic memory and cellular decision-making to global RNA metabolism in the context of cellular physiology.</p>
+<p>We seek to generate a <em>quantitative</em> understanding of these processes, making use of a combination of different imaging modalities, molecular genomics techniques as well as genome and epi-genome editing approaches. Projects are often underpinned by construction of minimal mathematical models at the molecular and cellular level, which we use as a tool for exploring possible explanations of experimental results and prioritising future experiments.</p>
+<p>The best science happens in the overlap between fields. We aim to build a diverse team and foster collaborations across fields and disciplines.</p>
+<p><img src="images/FISHquant-01.png" alt="Effects on gene expression of CRISPR-KO using smFISH"></p>
+<h4 id="stability-and-plasticity-of-chromatin-based-epigenetic-memory">Stability and plasticity of chromatin-based epigenetic memory</h4>
+<p>The chromatin of genetic loci can be set into molecular &lsquo;states&rsquo; that control the expression of their underlying genes and also instruct their own inheritance &ndash; acting as an local epigenetic memory elements. When necessary, however, these chromatin can also be switched from one state to another &ndash; by processes that involve coordinated changes to the histone modifications, accessibility of regulatory sequences, and expression states of the underlying genes.</p>
+<p>We are interested in the interplay between gene-specific diffusible regulatory factors (e.g. transcription factors), which tend to have continuous (analogue) control over gene expression, and heritable chromatin states (e.g. Polycomb-repressed chromatin), which tend to promote bi-modal (digital) stable expression states.</p>
+<p><strong>Further reading:</strong><br>
+<a href="http://dx.doi.org/10.1126/science.aan1121">Yang, Berry <em>et al.</em>, Science, 2017</a><br>
+<a href="http://dx.doi.org/10.1016/j.cels.2017.02.013">Berry <em>et al.</em>, Cell Systems, 2017</a></p>
+<p><img src="images/Modelling-01.png" alt="Integrating local and diffusible signals at chromatin"></p>
+<h4 id="global-control-of-rna-metabolism">Global control of RNA metabolism</h4>
+<p>Mammalian cells coordinate RNA production with cell size, a process that we discovered relies on adapting transcription rates to nuclear RNA concentratuon</p>
+<p><strong>Further reading:</strong><br>
+<a href="https://doi.org/10.1101/2021.05.17.444432">Berry <em>et al.</em>, bioRxiv, 2021</a></p>
+<p><img src="images/transcription_feedback.png" alt="Feedback from RNA production "></p>
+<h4 id="spatial-organisation-of-cells-across-scales">Spatial organisation of cells across scales</h4>
+<p>In recent years, technological advances have made it possible to visualise tens to hundreds of proteins in single cells. This has brought with it the ability to accurately quantify cell-to-cell variability in subcellular organisation. Such quantification captures not only the location and abundance of individual proteins but also their  <em>relative</em> abundance in particular subcellular organelles, and the spatial proximity to one another. We are applying these technologies to uncover fundamental principles of how cells organise and reorganise in the context of cellular differentiation and changes to gene expression.</p>
+<p><strong>Further reading:</strong><br>
+<a href="https://doi.org/10.1126/science.aar7042">Gut <em>et al.</em>, Science, 2019</a></p>
 
                 </section>
             </article>
@@ -317,7 +371,7 @@
                     <h2 class="post-title">Contact</h2>
                 </header>
                 <section class="post-content">
-                    <p><i class="fa fa-envelope"></i> <a href="mailto:scott.berry%5Bat%5Dunsw.edu.au">scott.berry[at]unsw.edu.au</a></p>
+                    <p><i class="fa fa-envelope"></i> <a href="mailto:scott.berry@unsw.edu.au">scott.berry[at]unsw.edu.au</a></p>
 <p><i class="fa fa-twitter"></i> <a href="http://twitter.com/scottbscience">@scottbscience</a></p>
 <p><strong>Find me:</strong></p>
 <p>Single Molecule Science<br>
