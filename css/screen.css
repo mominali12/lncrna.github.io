@@ -688,6 +688,34 @@ a.fn-item.active {
   margin: 0 auto;
 }
 
+.post-content img[src$='#floatleft'] {
+  float: left;
+  max-width: 33%;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.post-content img[src$='#floatright'] {
+  float: right;
+  max-width: 33%;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.post-content img[src$='#floatlefthalf'] {
+  float: left;
+  max-width: 50%;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.post-content img[src$='#floatrighthalf'] {
+  float: right;
+  max-width: 50%;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
 /* The author credit area after the post */
 .post-footer {
   position: relative;

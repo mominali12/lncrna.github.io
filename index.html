@@ -56,10 +56,10 @@
 
 
 
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Fredoka%20One&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
 <style>
 
@@ -89,7 +89,8 @@
      h3 {
           font-family: "Fredoka One";
           font-weight: 400;
-          margin-bottom: 30px;
+          margin-top: 0px;
+          margin-bottom: 0px;
      }
 
      h4 {
@@ -105,15 +106,14 @@
           font-weight: 400;
           font-size: 2.5rem;
           line-height: 1.25em;
-          margin-top: 40px;
+          margin-top: 50px;
           margin-bottom: 0;
      }
 
      body {
           color: #32363f;
           font-family: "Raleway";
-          font-weight: 300;
-          font-size: 2.0rem;
+          font-weight: 400;
      }
 
       
@@ -158,8 +158,8 @@
 
       
      .site-footer {
-          color: #BBC7CC;
-          background-color: #22343A;
+          color: #617d82;
+          background-color: #afc9ce;
      }
 </style>
 
@@ -238,7 +238,10 @@
                     <h2 class="post-title">People</h2>
                 </header>
                 <section class="post-content">
-                    <p>Bio and pic</p>
+                    <h4 id="scott-berry">Scott Berry</h4>
+<p><img src="images/ProfilePicture.jpg#floatleft" alt="Scott Berry">
+Scott did his undergraduate studies in Theoretical Physics and Biology at the University of Adelaide and the University of Western Australia, He then moved to the UK for a PhD at the John Innes Centre. Together with Caroline Dean and Martin Howard, he worked on mechanisms of epigenetic memory, using <em>Arabidopsis thaliana</em> as a model system. Scott then moved to Switzerland to undertake postdoctoral research with Lucas Pelkmans on heterogeneity in gene expression in mammalian cells. From October 2021, Scott will be a group leader at Single Molecule Science.
+<div style="clear: both;"></div></p>
 
                 </section>
             </article>
@@ -252,23 +255,24 @@
                 </header>
                 <section class="post-content">
                     <p>We are interested in the mechanisms used by cells to regulate gene-specific and global RNA abundance &ndash; ranging from epigenetic memory and cellular decision-making to global RNA metabolism in the context of cellular physiology.</p>
-<p>We seek to generate a <em>quantitative</em> understanding of these processes, making use of a combination of different imaging modalities, molecular genomics techniques as well as genome and epi-genome editing approaches. Projects are often underpinned by construction of minimal mathematical models at the molecular and cellular level, which we use as a tool for exploring possible explanations of experimental results and prioritising future experiments.</p>
+<p>We seek to generate a <em>quantitative</em> understanding of these processes, making use of a combination of different imaging modalities, molecular genomics techniques as well as genome and epi-genome editing. Projects are often underpinned by construction of minimal mathematical models at the molecular and cellular level, which we use as a tool for exploring possible explanations of experimental results and prioritising future experiments.</p>
 <p>The best science happens in the overlap between fields. We aim to build a diverse team and foster collaborations across fields and disciplines.</p>
 <p><img src="images/FISHquant-01.png" alt="Effects on gene expression of CRISPR-KO using smFISH"></p>
-<h4 id="stability-and-plasticity-of-chromatin-based-epigenetic-memory">Stability and plasticity of chromatin-based epigenetic memory</h4>
-<p>The chromatin of genetic loci can be set into molecular &lsquo;states&rsquo; that control the expression of their underlying genes and also instruct their own inheritance &ndash; acting as an local epigenetic memory elements. When necessary, however, these chromatin can also be switched from one state to another &ndash; by processes that involve coordinated changes to the histone modifications, accessibility of regulatory sequences, and expression states of the underlying genes.</p>
+<h4 id="stability-and-plasticity-of-epigenetic-memory">Stability and plasticity of epigenetic memory</h4>
+<p>The chromatin of genetic loci can be set into molecular &lsquo;states&rsquo; that control the expression of their underlying genes and also instruct their own inheritance &ndash; acting as local epigenetic memory elements. When necessary, however, chromatin can also be reliably switched from one state to another &ndash; by processes that involve coordinated changes to the histone modifications, accessibility of regulatory sequences, and expression states of the underlying genes.</p>
 <p>We are interested in the interplay between gene-specific diffusible regulatory factors (e.g. transcription factors), which tend to have continuous (analogue) control over gene expression, and heritable chromatin states (e.g. Polycomb-repressed chromatin), which tend to promote bi-modal (digital) stable expression states.</p>
 <p><strong>Further reading:</strong><br>
 <a href="http://dx.doi.org/10.1126/science.aan1121">Yang, Berry <em>et al.</em>, Science, 2017</a><br>
 <a href="http://dx.doi.org/10.1016/j.cels.2017.02.013">Berry <em>et al.</em>, Cell Systems, 2017</a></p>
 <p><img src="images/Modelling-01.png" alt="Integrating local and diffusible signals at chromatin"></p>
 <h4 id="global-control-of-rna-metabolism">Global control of RNA metabolism</h4>
-<p>Mammalian cells coordinate RNA production with cell size, a process that we discovered relies on adapting transcription rates to nuclear RNA concentratuon</p>
+<p>Mammalian cells coordinate RNA production rates with cell size to ensure RNA concentration homeostasis. We discovered that this process relies on adapting transcription rates according to nuclear mRNA concentration, so that overabundance of nuclear mRNA leads to transcriptional repression. This mechanism involves mRNA-based regulation of the activity of RNA Polymerase II, which in turn determines polymerase abundance. The mechanistic details of this process remain unexplored. We are interested in further dissecting the complex interplay between the transcriptional machinery and nuclear RNA export and RNA degradation factors that all contribute to this highly conserved phenomenon.</p>
 <p><strong>Further reading:</strong><br>
 <a href="https://doi.org/10.1101/2021.05.17.444432">Berry <em>et al.</em>, bioRxiv, 2021</a></p>
-<p><img src="images/transcription_feedback.png" alt="Feedback from RNA production "></p>
+<p><img src="images/transcription_feedback.png" alt="Feedback from RNA production"></p>
 <h4 id="spatial-organisation-of-cells-across-scales">Spatial organisation of cells across scales</h4>
-<p>In recent years, technological advances have made it possible to visualise tens to hundreds of proteins in single cells. This has brought with it the ability to accurately quantify cell-to-cell variability in subcellular organisation. Such quantification captures not only the location and abundance of individual proteins but also their  <em>relative</em> abundance in particular subcellular organelles, and the spatial proximity to one another. We are applying these technologies to uncover fundamental principles of how cells organise and reorganise in the context of cellular differentiation and changes to gene expression.</p>
+<p><img src="images/4i.gif#floatrighthalf" alt="4i">
+In recent years, technological advances have made it possible to visualise tens to hundreds of proteins in single cells. This has brought with it the ability to accurately quantify cell-to-cell variability in subcellular organisation. Such quantification captures not only the location and abundance of individual proteins but also their  <em>relative</em> abundance in particular subcellular organelles, and the spatial proximity to one another. We are applying these technologies to uncover fundamental principles of how cells organise and reorganise in the context of cellular differentiation and changes to gene expression.</p>
 <p><strong>Further reading:</strong><br>
 <a href="https://doi.org/10.1126/science.aar7042">Gut <em>et al.</em>, Science, 2019</a></p>
 
@@ -286,15 +290,20 @@
                     <hr>
 <h3 id="preprints">Preprints</h3>
 <h6 id="nuclear-rna-concentration-coordinates-rna-production-with-cell-size-in-human-cells">Nuclear RNA concentration coordinates RNA production with cell size in human cells</h6>
-<p>Berry, S.^, Müller, M., Pelkmans, L.^<br>
+<p>Berry, S.^, Müller, M. and Pelkmans, L.^<br>
 <em>bioRxiv</em>
 | <a href="https://www.biorxiv.org/content/10.1101/2021.05.17.444432v1.full.pdf">PDF</a>
 | <a href="https://doi.org/10.1101/2021.05.17.444432">bioRxiv</a><br>
 ^ Corresponding authors</p>
 <hr>
+<h3 id="2021">2021</h3>
+<h6 id="high-content-genome-wide-sirna-screen-to-investigate-the-coordination-of-cell-size-and-rna-production">High content genome-wide siRNA screen to investigate the coordination of cell size and RNA production</h6>
+<p>Müller, M., Pelkmans, L., and Berry, S.<br>
+<em>Scientific Data</em> (in press)</p>
+<hr>
 <h3 id="2017">2017</h3>
 <h6 id="disruption-of-an-rna-binding-hinge-region-abolishes-lhp1-mediated-epigenetic-repression">Disruption of an RNA-binding hinge region abolishes LHP1-mediated epigenetic repression</h6>
-<p>Berry, S., Rosa, S., Howard, M., Bühler, M. &amp; Dean, C.<br>
+<p>Berry, S., Rosa, S., Howard, M., Bühler, M., and Dean, C.<br>
 <em>Genes &amp; Development</em>
 | <a href="papers/berry_et_al_genes_dev_2017.pdf">PDF</a>
 | <a href="http://dx.doi.org/10.1101/gad.305227.117">Journal</a></p>
@@ -401,11 +410,6 @@ Australia</p>
 
     <section></section>
     
-      <section>
-        <a href="https://themes.gohugo.io/hugo-scroll/">Design</a> template
-        built by
-        <a href="https://www.janraasch.com" title="Jan Raasch">Jan Raasch</a>
-      </section>
 
   </div>
 </footer>
