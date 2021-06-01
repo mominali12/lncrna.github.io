@@ -690,14 +690,14 @@ a.fn-item.active {
 
 .post-content img[src$='#floatleft'] {
   float: left;
-  max-width: 33%;
+  max-width: 40%;
   padding-right: 20px;
   margin: 0 auto;
 }
 
 .post-content img[src$='#floatright'] {
   float: right;
-  max-width: 33%;
+  max-width: 40%;
   padding-left: 20px;
   margin: 0 auto;
 }
