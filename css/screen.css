@@ -660,6 +660,15 @@ a.fn-item.active {
   line-height: 1.5em;
 }
 
+.photo img{
+  /* aspect-ratio: 1; */
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+  border-radius: 50px;
+}
+
 /* ==========================================================================
       5. Single Post - When you click on an individual post
       ========================================================================== */
