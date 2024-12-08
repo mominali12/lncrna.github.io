@@ -473,8 +473,16 @@ ul li {
   margin-bottom: 0rem;
   text-align: center;
   color: #fff;
-  background: #4f4990 no-repeat center center;
+  background: #000;
   background-size: cover;
+}
+
+.header{
+  background-image: url(/lncrna.github.io/images/header-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ccc; /* Fallback color */
 }
 
 #site-head:after {
